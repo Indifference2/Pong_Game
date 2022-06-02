@@ -28,7 +28,6 @@ class ScoreBoard(Turtle):
         self.update_scoreboard()
 
     def there_is_a_winner(self):
-        """Write a game over message"""
         if self.l_score == 5:
             self.goto(0, 0)
             self.write("PLAYER 1 WIN", align="center", font=("Courier", 70, "normal"))
