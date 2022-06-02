@@ -1,9 +1,8 @@
-from turtle import Turtle, Screen
+from turtle import Screen
 
 
 class Settings:
     def __init__(self):
-        self.score = Turtle()
         self.screen = Screen()
         self.screen_options()
 
